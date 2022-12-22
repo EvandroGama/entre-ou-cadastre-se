@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@300;400;500;600;700;800 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ff6f5bff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    width: 70%;
+    height: 90vh;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 16%);
+}
+
+.login-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ffb0a3ff;
+    padding: 1rem;
+    border-radius: 8px 0 0 8px;
+}
+
+.login-left img {
+    width: 30vw;
+}
+
+.login-left p{
+    text-align: center;
+    font-size: 20pt;
+    font-weight: 800;
+    line-height: 1em;
+    color: #fff;
+}
+
+.login-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 0 8px 8px 0;
+    padding: 3rem 5rem;
+}
+
+.login-right .header {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.header p{
+    color: #ccc;
+    font-size: 10pt;
+}
+
+.header a {
+    color: #ff6f5bff;
+    font-size: 10pt;
+}
+
+.button-login {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.button-g {
+    width: 48%;
+    height: 45px;
+    border: solid 1px #cccc;
+    border-radius: 8px;
+    background: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9pt;
+}
+
+.button-g .img-g {
+    margin-top: 4px;
+    margin-right: 6px;
+}
+
+
+.button-f {
+    width: 48%;
+    height: 45px;
+    border: solid 1px #547bccff;
+    border-radius: 8px;
+    background: #547bccff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9pt;
+    color: #fff;
+}
+
+.button-f .img-f {
+    margin-top: 4px;
+    margin-right: 6px;
+}
+
+
+.login-right .divisor {
+    width: 100%;
+    text-align: center;
+    color: rgba(177, 177, 177, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.divisor p {
+    margin: 0 8px;
+}
+
+.bar1 {
+    width: 200px;
+    height: 0.5px;
+    background: rgba(177, 177, 177, 0.8);
+    display: flex;
+    justify-content: start;
+}
+
+.bar2 {
+    width: 200px;
+    height: 0.5px;
+    background: rgba(177, 177, 177, 0.8);
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+
+.signEmail {
+    width: 100%;
+    border: solid 1px #ccc;
+    border-radius: 6px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s ease;
+}
+
+
+.signEmail input {
+    width: 80%;
+    height: 30px;
+    color: #ff6f5bff;
+    font-size: 11pt;
+    outline: none;
+    margin-left: 20px;
+    border: none;
+}
+
+.signEmail input::placeholder {
+    color: rgba(153, 151, 151, 0.8);
+}
+
+.signEmail:hover {
+    border: solid 1px #78b2ff;
+}
+
+.signEmail i {
+    margin-left: 20px;
+    color: rgba(153, 151, 151, 0.8);
+    font-size: 17pt;
+}
+
+.signEmail:focus {
+    border: 1px solid black;
+}
+
+.label-input {
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: start;
+    color: rgba(85, 85, 85, 0.8);
+    font-size: 10pt;
+    margin-top: 15px;
+}
+
+.checkbox {
+    width: 100%;
+    color: #ccc;
+    font-size: 8.5pt;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox a {
+    color: #ff6f5bff;
+    font-size: 8pt;
+}
+
+.checkbox label {
+    margin: 5px 0 0 5px;
+}
+
+.register {
+    width: 100%;
+    height: 45px;
+    background: #ff6f5bff;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: .4s ease ;
+}
+
+.register:hover {
+    background: rgb(241, 101, 83);
+}
+
+@media screen and (max-width: 1570px) {
+    .button-login {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button-g, .button-f {
+        width: 100%;
+        text-transform: uppercase;
+        font-size: 11pt;
+    }
+
+    .button-g {
+        margin-bottom: 10px;
+    }
+
+    .button-login .img-f, .button-login .img-g{
+        margin-right: 20px;
+    }
+
+    .register {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 1378px) {
+    .login-left{
+        display: none;
+    }
+
+    .main {
+        width: 50%;
+    }
+
+    .login-right {
+        width: 100%;
+        border-radius: 8px;
+    }
+}
+
+@media screen and (max-width: 1147px) {
+    .login-right {
+        padding: 2rem 3rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .main {
+        width: 90%;
+    }
+
+    .login-right {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .login-right {
+        padding: 2rem 2rem;
+    }
+
+    .button-login .img-f, .button-login .img-g{
+        margin-right: 10px;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}
