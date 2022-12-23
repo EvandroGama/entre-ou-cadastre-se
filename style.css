@@ -276,6 +276,7 @@ h2 {
 
     .main {
         width: 50%;
+        height: auto;
     }
 
     .login-right {
