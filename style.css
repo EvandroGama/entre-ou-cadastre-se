@@ -127,6 +127,13 @@ h2 {
     margin-right: 6px;
 }
 
+.button-g img {
+    width: 16px;
+}
+.button-f img {
+    width: 18px;
+}
+
 
 .login-right .divisor {
     width: 100%;
